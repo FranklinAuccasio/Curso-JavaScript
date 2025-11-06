@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/nivel-02/style-nivel2.css">
+</head>
+<body class="body">
+  <h1 class="title">Reto 01: Conversiones Explicitas</h1>
+  <div class="code-container">
+    <code>
+      const age = '25';<br>
+      const price = '19.99';<br>
+      const isActive = 1;<br>
+      console.log('Valores originales: ');<br>
+      console.log('age:', age, 'type:', typeof age);<br>
+      console.log('price:', price, 'type:', typeof price);<br>
+      console.log('isActive:', isActive, 'type:', typeof isActive);<br>
+<br>
+      //Convert age to number<br>
+      const ageNumber = Number(age);<br>
+<br>
+      //Convert price to number<br>
+      const priceNumber = Number(price);<br>
+<br>
+      //Convert isActive to boolean<br>
+      const isActiveBoolean = Boolean(isActive);<br>
+<br>
+      console.log('Valores convertidos: ');<br>
+      console.log('ageNumber:', ageNumber, '- tipo:', typeof ageNumber);<br>
+      console.log('priceNumber:', priceNumber, '- tipo:', typeof priceNumber);<br>
+      console.log('isActiveBoolean:', isActiveBoolean, '- tipo:', typeof isActiveBoolean);
+    </code>
+  </div>
+  <a class="btn-regreso" href="/index.html">Regresar</a>
+  <script>
+    const age = '25';
+    const price = '19.99';
+    const isActive = 1;
+    console.log('Valores originales: ');
+    console.log('age:', age, 'type:', typeof age);
+    console.log('price:', price, 'type:', typeof price);
+    console.log('isActive:', isActive, 'type:', typeof isActive);
+
+    //Convert age to number
+    const ageNumber = Number(age);
+
+    //Convert price to number
+    const priceNumber = Number(price);
+
+    //Convert isActive to boolean
+    const isActiveBoolean = Boolean(isActive);
+
+    console.log('Valores convertidos: ');
+    console.log('ageNumber:', ageNumber, '- tipo:', typeof ageNumber);
+    console.log('priceNumber:', priceNumber, '- tipo:', typeof priceNumber);
+    console.log('isActiveBoolean:', isActiveBoolean, '- tipo:', typeof isActiveBoolean);
+  </script>
+</body>
+</html>

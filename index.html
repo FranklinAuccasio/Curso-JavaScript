@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Introduccion a JavaScript</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="shortcut icon" href="img/JavaScript-logo.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,164 +13,50 @@
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
 </head>
-
-<body>
-  <header class="nav__header">
-    <h1 class="nav__titulo">Introduccion a <span class="nav__span">JavaScript</span></h1>
-    <nav class="nav__header__list">
-      <ul class="nav__list">
-        <li class="nav__list__items"><a class="nav__list__items__link" href="index.html">Inicio</a></li>
-        <li class="nav__list__items"><a class="nav__list__items__link" href="#javascript">Que es JavaScript</a></li>
-        <li class="nav__list__items"><a class="nav__list__items__link" href="#comandos">Comandos</a></li>
-        <li class="nav__list__items"><a class="nav__list__items__link" href="#historia">Historia</a></li>
-        <li class="nav__list__items__drop nav__list__items">
-          <a href="#" class="nav__list__items__link-hover">Challenges</a>
-            <ul class="nav__drop__content">
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o1-hello/reto-01.html">Reto01</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o2-advertencia/reto-02.html">Reto02</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o3-primera-variable/reto-03.html">Reto03</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o4-constantes-variables/reto-04.html">Reto04</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o5-tipo-datos/reto-05.html">Reto05</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o6-detective-tipos/reto-06.html">Reto06</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o7-template-strings/reto-07.html">Reto07</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o8-operadores-matematicos/reto-08.html">Reto08</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o9-primera-alerta/reto-09.html">Reto09</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o10-capture-input/reto-10.html">Reto10</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o11-custom-greeting/reto-11.html">Reto11</a></li>
-              <li class="nav__list__drop"><a class="nav__items__drop" href="o12-mini-profile/reto-12.html">Reto12</a></li>
+<body class="body">
+  <header class="header">
+    <nav class="nav">
+      <ul class="menu">
+        <li class="subraya"><a class="link" href="#hero">Inicio</a></li>
+        <li class="submenu-container">
+          <a class="link" href="#">Nivel-01</a>
+            <ul class="submenu">
+              <li><a href="nivel-01/o1-hello/reto-01.html">Reto01</a></li>
+              <li><a href="nivel-01/o2-advertencia/reto-02.html">Reto02</a></li>
+              <li><a href="nivel-01/o3-primera-variable/reto-03.html">Reto03</a></li>
+              <li><a href="nivel-01/o4-constantes-variables/reto-04.html">Reto04</a></li>
+              <li><a href="nivel-01/o5-tipo-datos/reto-05.html">Reto05</a></li>
+              <li><a href="nivel-01/o6-detective-tipos/reto-06.html">Reto06</a></li>
+              <li><a href="nivel-01/o7-template-strings/reto-07.html">Reto07</a></li>
+              <li><a href="nivel-01/o8-operadores-matematicos/reto-08.html">Reto08</a></li>
+              <li><a href="nivel-01/o9-primera-alerta/reto-09.html">Reto09</a></li>
+              <li><a href="nivel-01/o10-capture-input/reto-10.html">Reto10</a></li>
+              <li><a href="nivel-01/o11-custom-greeting/reto-11.html">Reto11</a></li>
+              <li><a href="nivel-01/o12-mini-profile/reto-12.html">Reto12</a></li>
             </ul>
+        </li>
+        <li class="submenu-container">
+          <a class="link" href="#">Nivel-02</a>
+          <ul class="submenu">
+            <li><a href="nivel-02/02_o1-conversiones-explicitas/02_reto-01.html">Reto01</a></li>
+            <li><a href="nivel-02/02_o2-unary-plus/02_reto-02.html">Reto02</a></li>
+            <li><a href="nivel-02/02_o3-truthy-falsy/02_reto-03.html">Reto03</a></li>
+            <li><a href="nivel-02/02_o4-/02_reto-04.html">Reto04</a></li>
+            <li><a href="nivel-02/02_o5-/02_reto-05.html">Reto05</a></li>
+            <li><a href="nivel-02/02_o6-/02_reto-06.html">Reto06</a></li>
+            <li><a href="nivel-02/02_o7-/02_reto-07.html">Reto07</a></li>
+            <li><a href="nivel-02/02_o8-/02_reto-08.html">Reto08</a></li>
+          </ul>
         </li>
       </ul>
     </nav>
-    <div class="nav__banner">
-      <img src="img/img-banner-nav.jpg" width="600" height="400" alt="imagen de banner sobre javascript">
-    </div>
   </header>
 
-  <main>
-    <section id="javascript">
-      <article>
-        <h2>Que es JavaScript</h2>
-        <p>JavaScript (\(JS\)) es un lenguaje de programación que se usa para hacer páginas web interactivas y
-          dinámicas, trabajando junto con HTML y CSS para crear la estructura, el estilo y la funcionalidad de un sitio.
-          Permite desarrollar desde animaciones y carruseles de imágenes hasta aplicaciones web completas, juegos,
-          validación de formularios y la actualización de contenido sin recargar la página.</p>
-        <details>
-
-          <summary>¿Cómo funciona?</summary>
-          <ul>
-            <li>Se ejecuta directamente en el navegador del usuario, lo que se conoce como "lenguaje del lado del
-              cliente".</li>
-            <li>Cuando un usuario visita una página web, su navegador descarga y ejecuta el código JavaScript, que puede
-              estar incrustado en la página o en un archivo separado.</li>
-            <li>Este proceso crea una experiencia de usuario más dinámica, ya que el navegador puede procesar el código
-              y cambiar el contenido en tiempo real, sin necesidad de volver a contactar al servidor.</li>
-          </ul>
-        </details>
-
-        <details>
-          <summary>¿Para qué se utiliza?</summary>
-          <ul>
-            <li><span>Interactividad:</span> Añade elementos dinámicos como menús desplegables y la respuesta a clics de
-              botones.
-            </li>
-            <li><span>Animaciones y efectos:</span> Permite crear animaciones, mover elementos en la página, o cambiar
-              colores.</li>
-            <li><span>Actualización de contenido:</span> Muestra nuevo contenido sin tener que recargar toda la página,
-              como en las
-              redes sociales.</li>
-            <li><span>Validación de formularios:</span> Verifica que la información ingresada por el usuario en un
-              formulario sea
-              correcta antes de enviarla al servidor.</li>
-            <li><span>Aplicaciones web:</span> Se utiliza para construir desde aplicaciones web hasta aplicaciones
-              móviles. </li>
-          </ul>
-        </details>
-
-        <details>
-          <summary>Diferencias con Java</summary>
-          <ul>
-            <li>Es importante no confundir JavaScript con Java, ya que son dos lenguajes distintos.</li>
-            <li>Java es un lenguaje compilado, de tipado estático y más estructurado.</li>
-            <li>JavaScript es un lenguaje interpretado, de tipado dinámico y con una sintaxis menos estricta, lo que lo
-              hace más flexible. </li>
-          </ul>
-        </details>
-      </article>
-    </section>
-
-    <section id="comandos">
-      <article>
-        <h2>Comandos JavaScript</h2>
-        <p>Los "comandos" de JavaScript no existen como tales, sino que se refiere a instrucciones, sentencias,
-          operadores y funciones. Algunas de las instrucciones más comunes son la asignación de valores a variables (=),
-          la declaración de funciones (function) y el uso de operadores lógicos (===, !==, &&, ||, !). También existen
-          comandos específicos, como los de edición de texto en HTML5 (createLink, cut, delete) y los que se usan en la
-          línea de comandos o en la consola del navegador.</p>
-        <h3>Tipos de comandos en JavaScript</h3>
-        <ul>
-          <li><span>Operadores:</span> Se utilizan para realizar operaciones.</li>
-          <ul>
-            <li>Asignación: =.</li>
-            <li>Aritméticos: +, -, *, /.</li>
-            <li>Comparación: === (igual estricto), !== (no igual estricto), < (menor que),> (mayor que).</li>
-          </ul>
-          <li><span>Sentencias de control:</span> Controlan el flujo de ejecución.</li>
-          <ul>
-            <li><span>Bucles:</span> for, while, do...while.</li>
-            <li><span>Control de bucles:</span> break, continue.</li>
-          </ul>
-          <li><span>Funciones:</span> Bloques de código reutilizables.</li>
-          <ul>
-            <li>Se pueden definir de varias maneras, siendo la más común la declaración function nombre(parámetros) { }.
-            </li>
-          </ul>
-          <li>Comandos de edición de texto (HTML5): Se usan con el método document.execCommand() para manipular
-            contenido rico.</li>
-          <ul>
-            <li><em>createLink:</em> Crea un hiperenlace sobre el texto seleccionado.</li>
-            <li><em>cut:</em> Corta el texto seleccionado y lo copia al portapapeles.</li>
-            <li><em>delete:</em> Borra el texto seleccionado.</li>
-            <li><em>fontName:</em> Cambia la fuente del texto.</li>
-          </ul>
-          <li><span>Comandos de consola:</span> Se utilizan en la consola del navegador para interactuar directamente
-            con JavaScript.
-          </li>
-          <ul>
-            <li>Se accede a ella con Ctrl+Shift+J (Windows, Linux) o Cmd+Option+J (macOS).</li>
-            <li>Permite ejecutar sentencias, como console.log("hola"), y ver los resultados. </li>
-          </ul>
-        </ul>
-        <h2>Estructura básica</h2>
-        <ul>
-          <li><span>Punto y coma (;):</span> Cada instrucción debe terminar con un punto y coma.</li>
-          <li><span>Comentarios:</span> Se usan para explicar el código.</li>
-          <ul>
-            <li>// para comentarios de una sola línea.</li>
-            <li>/* ... */ para comentarios de varias líneas.</li>
-          </ul>
-          <li><span>Etiquetas script:</span> Para incluir código JavaScript dentro de un archivo HTML, se utiliza la
-            etiqueta script.
-          </li>
-        </ul>
-      </article>
-    </section>
-
-    <section id="historia">
-      <article>
-        <h2>Historia de JavaScript</h2>
-        <p>JavaScript se creó en 1995 por Brendan Eich en Netscape y originalmente se llamó "Mocha" y luego
-          "LiveScript". Fue rebautizado como "JavaScript" como estrategia de marketing para capitalizar la popularidad
-          de Java, a pesar de las diferencias significativas entre los lenguajes. El objetivo inicial era añadir
-          interactividad dinámica a las páginas web en el navegador Netscape Navigator. La estandarización llegó en 1997
-          con la versión ECMAScript 1.</p>
-      </article>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; derechos reservados 2025</p>
-  </footer>
+  <section class="hero-banner" id="hero">
+    <div class="hero-text">
+      <h1>Introduccion a <span class="hero-span">JavaScript</span></h1>
+      <a href="#" class="btn-ver">Ver mas</a>
+    </div>
+  </section>
 </body>
-
 </html>

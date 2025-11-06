@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/nivel-02/style-nivel2.css">
+</head>
+<body class="body">
+  <h1 class="title">Casino magico de operadores</h1>
+  <h5 class="description">Abri la consola para ver los resultados.</h5>
+  <div class="code-container">
+    <code>
+      const feNumber = 8;<br>
+      const amorosaNumber = 7;<br>
+      let victorias = 0;<br>
+      //Calculate: feNumber % 2 (is it even?)<br>
+      const feRemainder = feNumber % 2;<br>
+      //Calculate: amorosaNumber % 2 (is it even?)<br>
+      const amorosaRemainder = amorosaNumber % 2;<br>
+      //Caculate: feNumber ** 2<br>
+      const squaredFe = feNumber ** 2;<br>
+      //Caculate: amorosaNumber ** 2<br>
+      const squaredAmorosa = amorosaNumber ** 2;<br>
+      //Increment victories with ++<br>
+      victorias++;<br>
+      //Show all calculations with console.log()<br>
+      console.log(feRemainder === 0 ? 'Fe es par' : 'Fe es impar');<br>
+      console.log(amorosaRemainder === 0 ? 'Amorosa es par' : 'Amorosa es impar');<br>
+      console.log(`Fe ${feNumber} ** 2 = ${squaredFe}`);<br>
+      console.log(`Amorosa ${amorosaNumber} ** 2 = ${squaredAmorosa}`);<br>
+      console.log(`Fe gano ${victorias} ronda ${victorias > 1 ? 's' : ''}`);
+    </code>
+  </div>
+  <a class="btn-regreso" href="/index.html">Regresar</a>
+  <script>
+    const feNumber = 8;
+    const amorosaNumber = 7;
+    let victorias = 0;
+    //Calculate: feNumber % 2 (is it even?)
+    const feRemainder = feNumber % 2;
+    //Calculate: amorosaNumber % 2 (is it even?)
+    const amorosaRemainder = amorosaNumber % 2;
+    //Caculate: feNumber ** 2
+    const squaredFe = feNumber ** 2;
+    //Caculate: amorosaNumber ** 2
+    const squaredAmorosa = amorosaNumber ** 2;
+    //Increment victories with ++
+    victorias++;
+    //Show all calculations with console.log()
+    console.log(feRemainder === 0 ? 'Fe es par' : 'Fe es impar');
+    console.log(amorosaRemainder === 0 ? 'Amorosa es par' : 'Amorosa es impar');
+    console.log(`Fe ${feNumber} ** 2 = ${squaredFe}`);
+    console.log(`Amorosa ${amorosaNumber} ** 2 = ${squaredAmorosa}`);
+    console.log(`Fe gano ${victorias} ronda ${victorias > 1 ? 's' : ''}`);
+</script>
+</body>
+</html>

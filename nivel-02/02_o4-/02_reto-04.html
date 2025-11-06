@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/nivel-02/style-nivel2.css">
+<body class="body">
+  <h1 class="title">Laboratorio de pociones magicas</h1>
+  <h5 class="description">Abrir la consola para ver los resultados</h5>
+  <div class="code-container">
+    <code>
+      const invisibilityDuration = '30'<br>
+      const strengthLevel = 8;<br>
+      const isActive = 1;<br>
+<br>
+      //Convert each ingredient to the correct type<br>
+      //Create a potion<br>
+      const invisibilityDurationNumber = Number(invisibilityDuration);<br>
+      const strengthLevelString = String(strengthLevel);<br>
+      const isActiveBoolean = Boolean(isActive);<br>
+      //Create a message showing all three potions are ready<br>
+      //Show with console.log()<br>
+      console.log('Pocion lista: ', invisibilityDurationNumber + ' minutos');<br>
+      console.log('Pocion lista: ', strengthLevelString + ' puntos de fuerza');<br>
+      console.log('Pocion lista: ', isActiveBoolean + ' velocidad activada');<br>
+<br>
+      console.log(typeof invisibilityDurationNumber == 'number');
+    </code>
+  </div>
+  <a class="btn-regreso" href="/index.html">Regresar</a>
+  <script>
+    const invisibilityDuration = '30'
+    const strengthLevel = 8;
+    const isActive = 1;
+
+    //Convert each ingredient to the correct type
+    //Create a potion
+    const invisibilityDurationNumber = Number(invisibilityDuration);
+    const strengthLevelString = String(strengthLevel);
+    const isActiveBoolean = Boolean(isActive);
+    //Create a message showing all three potions are ready
+    //Show with console.log()
+    console.log('Pocion lista: ', invisibilityDurationNumber + ' minutos');
+    console.log('Pocion lista: ', strengthLevelString + ' puntos de fuerza');
+    console.log('Pocion lista: ', isActiveBoolean + ' velocidad activada');
+
+    console.log(typeof invisibilityDurationNumber == 'number');
+  </script>
+</body>
+</html>
